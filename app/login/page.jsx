@@ -9,7 +9,7 @@ export default function Login() {
         <div className="flex justify-center gap-2 md:justify-start">
           <a href="#" className="flex items-center gap-2 font-medium">
             <div className="bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md">
-              <img src="https://www.incashy.com/logo.png"></img>
+              <img src={"/logo.png"}></img>
             </div>
             Incashy Admin
           </a>
