@@ -1,9 +1,6 @@
-import React from 'react'
-import DashboardPage from "@/components/dashboard/page"
-const HomePage = () => {
-  return (
-    <DashboardPage></DashboardPage>
-  )
-}
+// app/page.tsx
+import { redirect } from "next/navigation"
 
-export default HomePage
+export default function Home() {
+  redirect("/dashboard")
+}

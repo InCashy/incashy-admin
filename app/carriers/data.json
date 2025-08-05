@@ -1,0 +1,193 @@
+{
+  "carriers": [
+    {
+      "dot_number": "2357598",
+      "name": "Three Stars Transport Inc.",
+      "status": "active",
+      "onboarded_at": "2024-03-01",
+      "last_activity": "2025-07-30",
+      "mc_number": "807667",
+      "contact": {
+        "email": "threestars039@gmail.com",
+        "phone": "619-939-6319",
+        "address": "1427 Evanwood Ave, La Puente, CA 91744, USA"
+      },
+      "bank_details": {
+        "bank_name": "Wells Fargo Bank",
+        "account_name": "Three Stars Transport Inc",
+        "routing_number": "122000247",
+        "account_number": "1388259473"
+      },
+      "documents": {
+        "w9": "/docs/w9.pdf",
+        "coi": "/docs/coi.pdf",
+        "authority": "/docs/authority.pdf"
+      },
+      "compliance": {
+        "noa_sent": true,
+        "insurance_verified": true,
+        "insurance_expires": "2025-09-15"
+      },
+      "metrics": {
+        "total_loads": 127,
+        "on_time_rate": 0.97,
+        "avg_payment_days": 5,
+        "total_paid": 238200,
+        "avg_invoice_size": 1875,
+        "disputes": 1
+      },
+      "brokers_worked_with": [
+        { "name": "TQL", "loads": 8, "total_amount": 16000 },
+        { "name": "CH Robinson", "loads": 12, "total_amount": 24000 }
+      ],
+      "notes": "Always responds quickly. One delayed delivery in April due to snowstorm.",
+      "factoring": {
+        "active": true,
+        "fee_rate": 3,
+        "last_payment": "2025-07-28",
+        "total_paid": 238200
+      }
+    },
+    {
+      "dot_number": "210987",
+      "name": "Iron Haulers LLC",
+      "status": "inactive",
+      "onboarded_at": "2023-11-15",
+      "last_activity": "2024-12-22",
+      "mc_number": "789012",
+      "contact": {
+        "email": "info@ironhaulers.com",
+        "phone": "555-6789",
+        "address": "88 Steel Ave, Memphis, TN"
+      },
+      "bank_details": {
+        "account_name": "Iron Haulers LLC",
+        "routing_number": "123789456",
+        "account_number": "223344556"
+      },
+      "documents": {
+        "w9": "/docs/ironhaulers/w9.pdf",
+        "coi": "/docs/ironhaulers/coi.pdf",
+        "authority": "/docs/ironhaulers/authority.pdf"
+      },
+      "compliance": {
+        "noa_sent": false,
+        "insurance_verified": false,
+        "insurance_expires": "2024-11-01"
+      },
+      "metrics": {
+        "total_loads": 32,
+        "on_time_rate": 0.84,
+        "avg_payment_days": 9,
+        "total_paid": 51200,
+        "avg_invoice_size": 1600,
+        "disputes": 3
+      },
+      "brokers_worked_with": [
+        { "name": "Uber Freight", "loads": 15, "total_amount": 22500 },
+        { "name": "Echo Global", "loads": 10, "total_amount": 18000 }
+      ],
+      "notes": "Had multiple late pickups. Currently under review.",
+      "factoring": {
+        "active": false,
+        "fee_rate": 0.03,
+        "last_payment": "2024-10-05",
+        "total_paid": 51200
+      }
+    },
+    {
+      "dot_number": "789654",
+      "name": "Blue Ridge Transport",
+      "status": "active",
+      "onboarded_at": "2025-01-10",
+      "last_activity": "2025-08-02",
+      "mc_number": "456321",
+      "contact": {
+        "email": "dispatch@blueridge.com",
+        "phone": "555-3210",
+        "address": "45 Mountain Way, Asheville, NC"
+      },
+      "bank_details": {
+        "account_name": "Blue Ridge Transport Inc.",
+        "routing_number": "321654987",
+        "account_number": "445566778"
+      },
+      "documents": {
+        "w9": "/docs/blueridge/w9.pdf",
+        "coi": "/docs/blueridge/coi.pdf",
+        "authority": "/docs/blueridge/authority.pdf"
+      },
+      "compliance": {
+        "noa_sent": true,
+        "insurance_verified": true,
+        "insurance_expires": "2026-02-01"
+      },
+      "metrics": {
+        "total_loads": 58,
+        "on_time_rate": 0.93,
+        "avg_payment_days": 6,
+        "total_paid": 101500,
+        "avg_invoice_size": 1750,
+        "disputes": 0
+      },
+      "brokers_worked_with": [
+        { "name": "Convoy", "loads": 20, "total_amount": 35000 },
+        { "name": "Schneider", "loads": 14, "total_amount": 28000 }
+      ],
+      "notes": "Great communication, proactive with paperwork.",
+      "factoring": {
+        "active": true,
+        "fee_rate": 0.027,
+        "last_payment": "2025-07-29",
+        "total_paid": 101500
+      }
+    },
+    {
+      "dot_number": "123789",
+      "name": "West Coast Logistics",
+      "status": "active",
+      "onboarded_at": "2024-06-05",
+      "last_activity": "2025-08-01",
+      "mc_number": "987321",
+      "contact": {
+        "email": "admin@westcoastlog.com",
+        "phone": "555-8822",
+        "address": "900 Sunset Blvd, Los Angeles, CA"
+      },
+      "bank_details": {
+        "account_name": "West Coast Logistics",
+        "routing_number": "654987321",
+        "account_number": "112233445"
+      },
+      "documents": {
+        "w9": "/docs/westcoast/w9.pdf",
+        "coi": "/docs/westcoast/coi.pdf",
+        "authority": "/docs/westcoast/authority.pdf"
+      },
+      "compliance": {
+        "noa_sent": true,
+        "insurance_verified": true,
+        "insurance_expires": "2025-12-10"
+      },
+      "metrics": {
+        "total_loads": 211,
+        "on_time_rate": 0.99,
+        "avg_payment_days": 4,
+        "total_paid": 417600,
+        "avg_invoice_size": 1980,
+        "disputes": 0
+      },
+      "brokers_worked_with": [
+        { "name": "Coyote", "loads": 50, "total_amount": 95000 },
+        { "name": "Landstar", "loads": 38, "total_amount": 78000 }
+      ],
+      "notes": "Top performer. Very reliable. Prefers ACH over wire.",
+      "factoring": {
+        "active": true,
+        "fee_rate": 0.022,
+        "last_payment": "2025-08-01",
+        "total_paid": 417600
+      }
+    }
+  ]
+}

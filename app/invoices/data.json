@@ -1,0 +1,506 @@
+[
+  {
+    "invoice_id": "INV-20250723-100",
+    "carrier": {
+      "id": "CARR-541",
+      "name": "RedLine Hauling Co.",
+      "mc_number": "887521",
+      "dot_number": "1459987",
+      "contact": {
+        "email": "dispatch@redlinehauling.com",
+        "phone": "+1-555-111-2222"
+      },
+      "bank_details": {
+        "account_name": "RedLine Hauling Co.",
+        "routing_number": "021000021",
+        "account_number": "1203987654"
+      }
+    },
+    "broker": {
+      "id": "BROK-304",
+      "name": "LogiTrade Express",
+      "contact": {
+        "email": "load@logitradeexpress.com",
+        "phone": "+1-555-303-4455"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-5432",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "San Diego, CA",
+          "date": "2025-07-23T08:00:00-07:00"
+        },
+        {
+          "type": "pickup",
+          "location": "Los Angeles, CA",
+          "timeframe": {
+            "start": "2025-07-23T13:00:00-07:00",
+            "end": "2025-07-23T15:00:00-07:00"
+          }
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-26T08:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Seattle, WA",
+          "timeframe": {
+            "start": "2025-07-23T14:00:00-07:00",
+            "end": "2025-07-23T17:00:00-07:00"
+          }
+        }
+      ],
+      "equipment": "53' Reefer",
+      "weight": "41,000 lbs",
+      "commodity": "Frozen Meats"
+    },
+    "charges": {
+      "line_haul": 2200,
+      "fuel_surcharge": 145,
+      "detention": 75,
+      "total": 2420
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-101/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-101/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-101/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-302",
+      "purchase_date": "2025-07-23",
+      "advance_rate": 0.9,
+      "advance_amount": 2178,
+      "reserve": 242,
+      "fee_rate": 0.025,
+      "factoring_fee": 60.5,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "received",
+    "issued_date": "2025-07-23",
+    "due_date": "2025-08-22",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-101",
+    "carrier": {
+      "id": "CARR-541",
+      "name": "RedLine Hauling Co.",
+      "mc_number": "887521",
+      "dot_number": "1459987",
+      "contact": {
+        "email": "dispatch@redlinehauling.com",
+        "phone": "+1-555-111-2222"
+      },
+      "bank_details": {
+        "account_name": "RedLine Hauling Co.",
+        "routing_number": "021000021",
+        "account_number": "1203987654"
+      }
+    },
+    "broker": {
+      "id": "BROK-304",
+      "name": "LogiTrade Express",
+      "contact": {
+        "email": "load@logitradeexpress.com",
+        "phone": "+1-555-303-4455"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-5432",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "53' Reefer",
+      "weight": "41,000 lbs",
+      "commodity": "Frozen Meats"
+    },
+    "charges": {
+      "line_haul": 2200,
+      "fuel_surcharge": 145,
+      "detention": 75,
+      "total": 2420
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-101/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-101/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-101/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-302",
+      "purchase_date": "2025-07-23",
+      "advance_rate": 0.9,
+      "advance_amount": 2178,
+      "reserve": 242,
+      "fee_rate": 0.025,
+      "factoring_fee": 60.5,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "reviewing",
+    "issued_date": "2025-07-23",
+    "due_date": "2025-08-22",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-102",
+    "carrier": {
+      "id": "CARR-702",
+      "name": "BlueSky Freight Inc.",
+      "mc_number": "642109",
+      "dot_number": "1962783",
+      "contact": {
+        "email": "info@blueskyfreight.com",
+        "phone": "+1-555-673-7771"
+      },
+      "bank_details": {
+        "account_name": "BlueSky Freight Inc.",
+        "routing_number": "111000614",
+        "account_number": "8832011122"
+      }
+    },
+    "broker": {
+      "id": "BROK-702",
+      "name": "FastLane Logistics",
+      "contact": {
+        "email": "brokers@fastlane.com",
+        "phone": "+1-555-829-3322"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-8821",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "Flatbed",
+      "weight": "47,500 lbs",
+      "commodity": "Steel Coils"
+    },
+    "charges": {
+      "line_haul": 2700,
+      "fuel_surcharge": 200,
+      "lumper_fee": 0,
+      "total": 2900
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-102/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-102/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-102/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-303",
+      "purchase_date": "2025-07-23",
+      "advance_rate": 0.9,
+      "advance_amount": 2610,
+      "reserve": 290,
+      "fee_rate": 0.025,
+      "factoring_fee": 72.5,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "reviewing",
+    "issued_date": "2025-07-23",
+    "due_date": "2025-08-22",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-103",
+    "carrier": {
+      "id": "CARR-821",
+      "name": "IronClad Logistics LLC",
+      "mc_number": "500182",
+      "dot_number": "1551199",
+      "contact": {
+        "email": "billing@ironcladlogistics.com",
+        "phone": "+1-555-489-9000"
+      },
+      "bank_details": {
+        "account_name": "IronClad Logistics LLC",
+        "routing_number": "062000019",
+        "account_number": "7723345511"
+      }
+    },
+    "broker": {
+      "id": "BROK-414",
+      "name": "LoadRunner Partners",
+      "contact": {
+        "email": "dispatch@loadrunner.com",
+        "phone": "+1-555-224-1999"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-1204",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "Box Truck",
+      "weight": "12,000 lbs",
+      "commodity": "Medical Supplies"
+    },
+    "charges": {
+      "line_haul": 900,
+      "fuel_surcharge": 65,
+      "total": 965
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-103/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-103/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-103/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-304",
+      "purchase_date": "2025-07-23",
+      "advance_rate": 0.9,
+      "advance_amount": 868.5,
+      "reserve": 96.5,
+      "fee_rate": 0.025,
+      "factoring_fee": 24.13,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "approved",
+    "issued_date": "2025-07-23",
+    "due_date": "2025-08-22",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-104",
+    "carrier": {
+      "id": "CARR-910",
+      "name": "SwiftMove Transport",
+      "mc_number": "123456",
+      "dot_number": "7890123",
+      "contact": {
+        "email": "billing@swiftmove.com",
+        "phone": "+1-555-123-4567"
+      },
+      "bank_details": {
+        "account_name": "SwiftMove Transport",
+        "routing_number": "123456789",
+        "account_number": "9876543210"
+      }
+    },
+    "broker": {
+      "id": "BROK-415",
+      "name": "Transport Solutions",
+      "contact": {
+        "email": "dispatch@transport.com",
+        "phone": "+1-555-987-6543"
+      }
+    },
+    "load": {
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "Dry Van",
+      "weight": "20,000 lbs",
+      "commodity": "Electronics"
+    },
+    "charges": {
+      "line_haul": 1500,
+      "fuel_surcharge": 100,
+      "detention": 50,
+      "total": 1650
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-104/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-104/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-104/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-305",
+      "purchase_date": "2025-07-23",
+      "advance_rate": 0.9,
+      "advance_amount": 1500,
+      "reserve": 150,
+      "fee_rate": 0.025,
+      "factoring_fee": 37.5,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "funded",
+    "issued_date": "2025-07-23",
+    "due_date": "2025-08-22",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-105",
+    "carrier": {
+      "id": "CARR-911",
+      "name": "SilverLine Transport",
+      "mc_number": "777777",
+      "dot_number": "1231231",
+      "contact": {
+        "email": "contact@silverline.com",
+        "phone": "+1-555-777-8888"
+      },
+      "bank_details": {
+        "account_name": "SilverLine Transport",
+        "routing_number": "123123123",
+        "account_number": "5555555555"
+      }
+    },
+    "broker": {
+      "id": "BROK-416",
+      "name": "Express Brokers",
+      "contact": {
+        "email": "info@expressbrokers.com",
+        "phone": "+1-555-999-0000"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-1206",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "Dry Van",
+      "weight": "25,000 lbs",
+      "commodity": "Furniture"
+    },
+    "charges": {
+      "line_haul": 1800,
+      "fuel_surcharge": 120,
+      "detention": 60,
+      "total": 1980
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-105/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-105/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-105/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-306",
+      "purchase_date": "2025-07-24",
+      "advance_rate": 0.85,
+      "advance_amount": 1683,
+      "reserve": 297,
+      "fee_rate": 0.03,
+      "factoring_fee": 59.4,
+      "payment_received": true,
+      "payment_received_date": "2025-07-25"
+    },
+    "status": "paid",
+    "issued_date": "2025-07-24",
+    "due_date": "2025-08-23",
+    "payment_terms": "Net 30"
+  },
+  {
+    "invoice_id": "INV-20250723-106",
+    "carrier": {
+      "id": "CARR-912",
+      "name": "OceanWave Carriers",
+      "mc_number": "654321",
+      "dot_number": "9876543",
+      "contact": {
+        "email": "info@oceanwave.com",
+        "phone": "+1-555-333-4444"
+      },
+      "bank_details": {
+        "account_name": "OceanWave Carriers",
+        "routing_number": "222000333",
+        "account_number": "666777888"
+      }
+    },
+    "broker": {
+      "id": "BROK-417",
+      "name": "Maritime Brokers",
+      "contact": {
+        "email": "contact@maritime.com",
+        "phone": "+1-555-111-2222"
+      }
+    },
+    "load": {
+      "load_id": "LOAD-1207",
+      "stops": [
+        {
+          "type": "pickup",
+          "location": "Seattle, WA",
+          "date": "2025-07-23T07:00:00Z"
+        },
+        {
+          "type": "delivery",
+          "location": "Portland, OR",
+          "date": "2025-07-23T14:00:00Z"
+        }
+      ],
+      "equipment": "Flatbed",
+      "weight": "30,000 lbs",
+      "commodity": "Construction Materials"
+    },
+    "charges": {
+      "line_haul": 2000,
+      "fuel_surcharge": 150,
+      "detention": 0,
+      "total": 2150
+    },
+    "documents": {
+      "rate_confirmation_url": "https://example.com/docs/INV-20250723-106/rate-conf.pdf",
+      "bol_url": "https://example.com/docs/INV-20250723-106/bol.pdf",
+      "pod_url": "https://example.com/docs/INV-20250723-106/pod.pdf"
+    },
+    "factoring": {
+      "factor_id": "FACT-307",
+      "purchase_date": "2025-07-24",
+      "advance_rate": 0.88,
+      "advance_amount": 1892,
+      "reserve": 258,
+      "fee_rate": 0.027,
+      "factoring_fee": 51.08,
+      "payment_received": false,
+      "payment_received_date": null
+    },
+    "status": "rejected",
+    "issued_date": "2025-07-24",
+    "due_date": "2025-08-23",
+    "payment_terms": "Net 30"
+  }
+]

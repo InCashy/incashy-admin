@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/login/page.jsx", "app/api/login/route.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/login/page.jsx", "app/api/login/route.js", "components/map/load-map.jsx", "components/custom/company-card.jsx"],
   "exclude": ["node_modules"]
 }
